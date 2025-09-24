@@ -104,19 +104,29 @@ p {
 
 .title {
   background-color: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 
 .title .page-title {
   color: #fff;
   font-weight: 700;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 48px;
+  margin: 0 auto;
 }
 
 .title .service {
   background-color: #4d5ae5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
   color: #ffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -124,13 +134,28 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
+  margin: 0 auto;
+  min-width: 169px;
+  border-radius: 4px;
 }
 
 .title .service:hover,
 .title .service:focus {
   background-color: #404bbf;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .strategy .strategy-title {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
@@ -138,6 +163,7 @@ p {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .strategy .strategy-text {
@@ -148,7 +174,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.strategy-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 89px;
+  padding-bottom: 120px;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -162,10 +193,17 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  padding-top: 120px;
+}
+.team .team-list {
+  background-color: #fff;
+  width: calc((100% - 3 * 24) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
-.team .team-list {
-  background-color: #ffff;
+.box {
+  padding-bottom: 32px 0;
 }
 
 .team .team-section {
@@ -175,6 +213,9 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
+  text-align: center;
+  padding-top: 32px;
 }
 
 .team .team-text {
@@ -184,6 +225,14 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.team-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 .portfolio .team-title {
   color: #2e2f42;
@@ -193,6 +242,10 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-box {
+  width: calc((100% - 2 * 24) / 3);
 }
 .portfolio .team-section {
   font-family: 'Roboto', sans-serif;
@@ -201,6 +254,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio .team-text {
@@ -210,6 +264,18 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
+}
+.port-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio .team-box {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .footer {
