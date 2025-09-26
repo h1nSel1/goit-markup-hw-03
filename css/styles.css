@@ -181,6 +181,7 @@ section {
 .strategy-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .team {
   background-color: #f4f4fd;
@@ -200,8 +201,6 @@ section {
 .team .team-list {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-}
-.list {
   width: calc((100% - 3 * 24px) / 4);
 }
 
