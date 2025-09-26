@@ -183,9 +183,7 @@ section {
   gap: 24px;
   width: calc((100% - 3 * 24px) / 4);
 }
-.list {
-  width: calc((100% - 3 * 24px) / 4);
-}
+
 .team {
   background-color: #f4f4fd;
 }
