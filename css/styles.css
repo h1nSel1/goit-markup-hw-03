@@ -181,7 +181,6 @@ section {
 .strategy-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .team {
   background-color: #f4f4fd;
@@ -217,7 +216,6 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
-  padding: 120px 0;
 }
 
 .team .team-text {
