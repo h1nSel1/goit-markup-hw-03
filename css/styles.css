@@ -181,6 +181,8 @@ section {
 .strategy-list {
   display: flex;
   gap: 24px;
+}
+.strategy-item {
   width: calc((100% - 3 * 24px) / 4);
 }
 
