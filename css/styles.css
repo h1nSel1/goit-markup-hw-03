@@ -1,3 +1,5 @@
+/* General */
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
@@ -34,11 +36,11 @@ img {
 section {
   padding: 120px 0;
 }
-
+/* header */
 .head-style {
   border-bottom: 1px solid #e7e9fc;
 }
-
+/* logo */
 .nav-style .logo {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -53,7 +55,7 @@ section {
 .nav-style .logo .logo-color {
   color: #2e2f42;
 }
-
+/* navigation */
 .nav-style .nav-menu .nav-menu-link {
   font-size: 16px;
   font-weight: 500;
@@ -68,7 +70,7 @@ section {
 .nav-style .nav-menu .nav-menu-link:focus {
   color: #404bbf;
 }
-
+/* contacts */
 .contacts {
   font-style: normal;
 }
@@ -100,7 +102,7 @@ section {
 .contacts-style {
   gap: 40px;
 }
-
+/* first section  */
 .title {
   background-color: #2e2f42;
   padding-bottom: 188px;
@@ -144,6 +146,7 @@ section {
 .title .service:focus {
   background-color: #404bbf;
 }
+/* second section */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -185,7 +188,7 @@ section {
 .team {
   background-color: #f4f4fd;
 }
-
+/* third section  */
 .team .team-title {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
@@ -232,6 +235,7 @@ section {
   align-items: center;
   gap: 24px;
 }
+/* four section  */
 .portfolio .team-title {
   color: #2e2f42;
   font-weight: 700;
@@ -274,7 +278,7 @@ section {
   column-gap: 24px;
   row-gap: 48px;
 }
-
+/* footer  */
 .footer {
   background-color: #2e2f42;
   padding-bottom: 100px;
